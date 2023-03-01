@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build && npm run deploy",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,9 +19,11 @@
   "bugs": {
     "url": "https://github.com/ArturoSer/ReactPortfoliov.23/issues"
   },
-  "homepage": "https://github.com/ArturoSer/ReactPortfoliov.23#readme",
+  "homepage": "https://ArturoSer.github.io/ReactPortfoliov.23",
+  //"homepage": "https://github.com/ArturoSer/ReactPortfoliov.23#readme",
   "dependencies": {
     "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
     "jest": "^29.4.3",
     "react": "^18.2.0"
   }
