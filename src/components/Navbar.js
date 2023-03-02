@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             href='#portfolio'
                             onClick={() => handlePageChange('Portfolio')}
                             className={currentPage === 'Portfolio'? ' active text-info' : ''}>
-                                Projects 
+                                Project
                                 </a>
                         </li>
                         <li className='me-3'>

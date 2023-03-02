@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import AboutContent from '../components/AboutContent';
-import img2 from '../components/img2.jpg';
+import img2 from '../components/img2.png';
 
 function About() {
     return (

@@ -5,7 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background: red;
+    background: rgb(144, 119, 119);
 }
 h1, h2, p, a{
     color: white;
