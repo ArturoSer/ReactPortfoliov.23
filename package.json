@@ -1,6 +1,6 @@
 {
   "name": "reactportfoliov.23",
-  "homepage": "https://ArturoSer.github.io/reactportfoliov.23",
+  "homepage": "http://ArturoSer.github.io/reactportfoliov.23",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,9 +17,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArturoSer/ReactPortfoliov.23/issues"
-  },
+  
   "dependencies": {
     "babel-loader": "^9.1.2",
     "eslint-config": "^0.3.0",
