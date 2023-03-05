@@ -19,3 +19,9 @@
 .about .right{
     max-width: 500px;
 }
+
+#avatar {
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 1%;
+}
