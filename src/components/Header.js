@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Nav from './Nav';
 
-import Navbar from './Navbar';
-
-function Header({ currentPage, handlePageChange }) {
-
+function Header() {
     return (
         <header>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <h1>
+                <Link to='/'>Arty</Link>
+            </h1>
+            <Nav />
+
         </header>
     );
 }
