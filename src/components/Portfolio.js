@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React from 'react';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -8,7 +8,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
-export default function PortfolioContainer() {
+function Portfolio() {
     const [currentPage, setCurrent] = useState('Home');
 
     const renderpage = () => {
@@ -34,3 +34,5 @@ return (
     </Fragment>
 );
 }
+
+export default Portfolio;

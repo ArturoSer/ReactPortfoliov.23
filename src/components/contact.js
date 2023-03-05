@@ -50,7 +50,7 @@ function Contact() {
                 </div>
                 {errorMessage && (
                     <div>
-                         <p>className="error-message">{errorMessage}</p>
+                         <p className="error-text">{errorMessage}</p>
                          </div>
                          )}
                          <button type="submit" id="submitform">Submit</button>
