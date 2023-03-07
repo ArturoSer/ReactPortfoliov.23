@@ -1,5 +1,15 @@
 {
     "short_name": "app",
-    "name": "create react app"
-
+    "name": "create react app",
+    "icons": [
+        {
+            "src": 'Avatar.JPG',
+            "type": 'image/jpg',
+            "sizes": "16x16"
+        }
+    ],
+"start_url": '.',
+"display": 'standalone',
+"theme_color": '#000000',
+"background_color": '#ffffff'
 }
